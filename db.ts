@@ -34,6 +34,7 @@ const returnCharacters = (callback: any, errorCallback: any) => {
     }
     console.log(results)
     const mappedResults = results.map((r: any) => {
+      
       return {
         id: r.character_id,
         value: r.character_name,
